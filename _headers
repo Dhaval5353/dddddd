@@ -1,0 +1,10 @@
+# Custom headers for specific paths
+/djnago_chatbot/templates/index.html
+  # Headers for that path
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+
+/*
+  # Headers for all pages
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
